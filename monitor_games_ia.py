@@ -4,24 +4,19 @@ from openpyxl import Workbook
 from playwright.sync_api import sync_playwright
 from google import genai
 
-# ==========================================
+
 # CONFIGURAÇÃO DA IA (NOVO SDK GEMINI)
-# 🛡️ SEGURANÇA: O código agora busca a chave de forma segura no sistema operacional
+# SEGURANÇA: O código agora busca a chave de forma segura no sistema operacional
 API_KEY_GEMINI = os.environ.get("GEMINI_API_KEY")
 
 # Inicialização global do cliente do Gemini
 client = genai.Client(api_key=API_KEY_GEMINI)
 # ==========================================
 
-
-# ==========================================
-
-
 def simular_analise_local(titulo, preco):
     """Análise de contingência caso a cota do Gemini termine."""
     titulo_lower = titulo.lower()
-
-    # Identificação por palavras-chave
+    
     if any(k in titulo_lower for k in ["soccer", "fifa", "ea sports fc", "futebol", "nba", "f1", "wheels"]):
         genero = "Esportes / Corrida"
     elif any(k in titulo_lower for k in ["duty", "doom", "halo", "gears", "metro", "resident", "fighter", "ninja"]):
