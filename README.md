@@ -44,10 +44,6 @@ O fluxo de dados do projeto segue uma linha de processamento inteligente e resil
 <img width="1354" height="592" alt="Celulares em Formato JSON" src="https://github.com/user-attachments/assets/b7ba612a-1edc-4810-a73c-375c9f5a0ae3" />
 
 
-
-
-
-
 ## 📦 Como Instalar e Rodar o Projeto
 
 ### 1. Clonar o Repositório
