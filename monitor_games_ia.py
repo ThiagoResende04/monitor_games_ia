@@ -5,13 +5,13 @@ from playwright.sync_api import sync_playwright
 from google import genai
 
 
-# CONFIGURAÇÃO DA IA (NOVO SDK GEMINI)
-# SEGURANÇA: O código agora busca a chave de forma segura no sistema operacional
+
+# SEGURANÇA: O código busca a chave de forma segura 
 API_KEY_GEMINI = os.environ.get("GEMINI_API_KEY")
 
-# Inicialização global do cliente do Gemini
+
 client = genai.Client(api_key=API_KEY_GEMINI)
-# ==========================================
+
 
 def simular_analise_local(titulo, preco):
     """Análise de contingência caso a cota do Gemini termine."""
@@ -73,7 +73,7 @@ def analisar_jogo_com_ia(titulo, preco):
                 "recomendacao": partes[2].strip(),
             }
     except Exception as e:
-        # 🧠 ENGENHARIA DE RESILIÊNCIA: Se estourar a cota diária (429), entra o modo Fallback
+        #  Se estourar a cota diária entra o modo Fallback
         if "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e):
             print("⚠️ Cota do Gemini esgotada para hoje. Ativando inteligência local de contingência...")
             return simular_analise_local(titulo, preco)
@@ -170,7 +170,7 @@ def rodar_robo_games_ia():
                         })
                         print(f"-> Sucesso: {titulo[:35]}... | R$ {preco_final} | Gênero: {analise_ia['genero']}\n")
 
-                        # Mantemos 4 segundos para evitar picos de chamadas desnecessários
+                        
                         time.sleep(4)
 
                 # Coleta 15 jogos para montar uma planilha bem encorpada
