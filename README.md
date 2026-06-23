@@ -35,13 +35,7 @@ O fluxo de dados do projeto segue uma linha de processamento inteligente e resil
 4. **Carga (Load):** Consolida os dados e insights em uma estrutura tabular.
 
 ---
-<img width="952" height="599" alt="Script no terminal" src="https://github.com/user-attachments/assets/887441a8-a28e-476e-a594-2b129b1a281e" />
-<img width="1297" height="516" alt="StatReload" src="https://github.com/user-attachments/assets/2729d378-ce36-4907-89de-3aedbc42e5ad" />
-<img width="1352" height="614" alt="phpMyAdmin" src="https://github.com/user-attachments/assets/8f38c577-003b-44f9-98db-829fdf068faf" />
-<img width="1351" height="603" alt="SmartTech Analytics API" src="https://github.com/user-attachments/assets/1f7fcc2c-28ec-4403-bc2a-29fad0d68907" />
-<img width="1069" height="603" alt="Painel Interativo (docs) — O Swagger UI 1-2" src="https://github.com/user-attachments/assets/dec0e60d-76ae-4729-a7ff-7faeed1c650e" />
-<img width="1068" height="209" alt="Painel Interativo (docs) — O Swagger UI 2-2" src="https://github.com/user-attachments/assets/a2aee384-aa89-4491-b260-e14ff5acaf30" />
-<img width="1354" height="592" alt="Celulares em Formato JSON" src="https://github.com/user-attachments/assets/b7ba612a-1edc-4810-a73c-375c9f5a0ae3" />
+
 
 
 ## 📦 Como Instalar e Rodar o Projeto
