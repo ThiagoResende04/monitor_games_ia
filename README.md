@@ -35,8 +35,17 @@ O fluxo de dados do projeto segue uma linha de processamento inteligente e resil
 4. **Carga (Load):** Consolida os dados e insights em uma estrutura tabular.
 
 ---
+## 📂Prints
+
+<img width="1292" height="404" alt="Código iniciando no terminal" src="https://github.com/user-attachments/assets/d211a260-ea73-4f4e-8278-7a8aab66cf06" />
+<img width="1342" height="627" alt="Navegador aberto" src="https://github.com/user-attachments/assets/856c7774-8f75-445e-8980-fe2809dcd548" />
+<img width="1261" height="545" alt="Código reiniciando após abertura do navegador" src="https://github.com/user-attachments/assets/ae615b0a-938e-4cbb-bced-ebe0c7597ba7" />
+<img width="1271" height="387" alt="Planilha" src="https://github.com/user-attachments/assets/4c534ec6-4931-46fa-9a28-03b5817ffa0a" />
 
 
+
+
+---
 
 ## 📦 Como Instalar e Rodar o Projeto
 
